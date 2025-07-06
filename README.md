@@ -4,7 +4,7 @@
 This project demonstrates how to interface sensors with the Raspberry Pi using the Sense HAT.
 
 ## Requirements
-- Raspberry Pi 5
+- Raspberry Pi 3 or newer
 - Sense HAT library installed on Raspberry Pi
 - Python 3.x
 
@@ -32,9 +32,16 @@ This project demonstrates how to interface sensors with the Raspberry Pi using t
 - **LED Matrix Display:**
   - The message "Hello, Embedded AI!" will scroll on the LED matrix.
 - **Sensor Readings:**
-  - Temperature: 25.3°C
-  - Humidity: 60.1%
-  - Pressure: 1012.5 hPa
+  - Temperature: 34.5°C
+  - Humidity: 36.1%
+  - Pressure: 979.2 hPa
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Notes
+  - Ensure that the Sense HAT is securely attached to the Raspberry Pi's GPIO pins.
+  - The sense_sensor.py script will continuously print sensor data to the terminal. You can stop it by pressing Ctrl+C.
+  - You can modify the scripts for different use cases or experiments.
+
+## Additional Resources
+For more information about the Raspberry Pi and Sense HAT, refer to the official documentation:
+  - Raspberry Pi Foundation, "Getting Started with Raspberry Pi", "https://www.raspberrypi.com/documentation/computers/getting-started.html"
+  - Raspberry Pi Sense HAT Library Documentation, "https://www.raspberrypi.com/documentation/accessories/sense-hat.html"
