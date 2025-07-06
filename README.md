@@ -11,7 +11,7 @@ This project demonstrates how to interface sensors with the Raspberry Pi using t
 ## Installation
 1. Clone this repository to your Raspberry Pi or local machine:
    ```
-   git clone https://github.com/yourusername/sensor-interfacing-project.git
+   git clone https://github.com/ngotrivien/sensor-interfacing-project.git
    ```
 2. Install the necessary libraries:
    ```
